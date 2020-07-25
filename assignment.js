@@ -65,7 +65,7 @@ function tinyFriend(str){
     for(var i = 0; i < str.length; i++){
     var element = str[i];
     if(element.length===0){
-        return("Empty sting warning!");
+        return("Empty string warning!");
         }
     else if(element < min){
         min = element;
